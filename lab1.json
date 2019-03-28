@@ -1,0 +1,28 @@
+[
+	{
+		"url": "http://localhost/6semestr/SoftwareEngineering/lab1.php/writeNumber/2789",
+		"response": { "result": "две тысячи семьсот восемьдесят девять" },
+		"method": "GET"
+	},
+	{
+		"url": "http://localhost/6semestr/SoftwareEngineering/lab1.php?a=1&b=-8&c=12",
+		"response": { "result": "x1=6, x2 = 2" },
+		"method": "GET"
+	},
+	{
+		"url": "http://localhost/6semestr/SoftwareEngineering/lab1.php/fibonacci/7",
+		"response": { "result": "13" },
+		"method": "GET"
+	},
+	{
+		"url": "http://localhost/6semestr/SoftwareEngineering/lab1.php/region/72",
+		"response": { "result": "Тюменская область" },
+		"method": "GET"
+	},
+	{
+		"url": "http://localhost/6semestr/SoftwareEngineering/lab1.php?date=28.03.2019",
+		"response": { "result": "Четверг" },
+		"method": "GET"
+	},
+
+]
