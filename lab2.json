@@ -1,0 +1,63 @@
+[
+	{
+		"url": "http://2lab/public/api/clients",
+		"response": [{"id":1,"name":"Сидоров"},{"id":2,"name":"Петров"}],
+		"method": "GET"
+	},
+	{
+		"url": "http://2lab/public/api/services",
+		"response": [{"id":1,"name":"услуга1"},{"id":2,"name":"услуга2"},{"id":3,"name":"услуга3"}],
+		"method": "GET"
+	},
+	{
+		"url": "http://2lab/public/api/appications",
+		"response": [{"id":1,"id_client":2,"Id_service":1},{"id":2,"id_client":1,"Id_service":3}],
+		"method": "GET"
+	},
+	{
+		"url": "http://2lab/public/api/clients?name=Петров",
+		"response": { "result": "Запись добавлена" },
+		"method": "POST"
+	},
+	{
+		"url": "http://2lab/public/api/services?name=услуга3",
+		"response": { "result": "Запись добавлена" },
+		"method": "POST"
+	},
+	{
+		"url": "http://2lab/public/api/appications?client_id=1&service_id=3",
+		"response": { "result": "Запись добавлена" },
+		"method": "POST"
+	},
+	{
+		"url": "http://2lab/public/api/clients/2?name=Петров Иван",
+		"response": { "result": "Запись обновлена" },
+		"method": "PUT"
+	},
+	{
+		"url": "http://2lab/public/api/services/2?name=услуга22",
+		"response": { "result": "Запись обновлена" },
+		"method": "PUT"
+	},
+	{
+		"url": "http://2lab/public/api/appications/2?client_id=2&service_id=3",
+		"response": { "result": "Запись обновлена" },
+		"method": "PUT"
+	},
+	{
+		"url": "http://2lab/public/api/clients/3",
+		"response": { "result": "Запись удалена" },
+		"method": "DELETE"
+	},
+	{
+		"url": "http://2lab/public/api/services/3",
+		"response": { "result": "Запись удалена" },
+		"method": "DELETE"
+	},
+	{
+		"url": "http://2lab/public/api/appications/2",
+		"response": { "result": "Запись удалена" },
+		"method": "DELETE"
+	},
+
+]
